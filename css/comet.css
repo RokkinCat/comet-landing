@@ -198,3 +198,16 @@ a[name] {
   position: relative;
   top: -25px;
 }
+
+blockquote {
+  border-left: 3px solid #617d99;
+}
+
+blockquote small:before {
+  content: ""
+}
+
+blockquote small {
+  font-size: 12px;
+}
+
