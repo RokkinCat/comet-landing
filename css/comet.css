@@ -87,7 +87,7 @@ body {
   text-align: center;
   margin: auto;
   padding-top: 65px;
-  padding-bottom: 65px;
+  padding-bottom: 55px;
   max-width: 600px;
 }
 
@@ -122,7 +122,7 @@ body {
   font-size: 19px;
   line-height: 26px;
   width: 85%;
-  margin: 0px auto 25px auto;
+  margin: 0px auto 15px auto;
   font-weight: 300;
   padding: 0px;
 }
