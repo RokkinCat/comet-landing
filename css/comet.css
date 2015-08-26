@@ -65,6 +65,8 @@
 }
 
 body {
+  background-image: url(../images/background.png);
+  background-repeat: repeat-x;
   background-color: rgb(236, 240, 241);
   font-family: 'Gotham Book', 'Gotham Medium', 'Gotham Bold';
 }
