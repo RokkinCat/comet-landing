@@ -65,55 +65,66 @@
 }
 
 body {
+  background-image: url(../images/background.png);
+  background-repeat: repeat-x;
   background-color: rgb(236, 240, 241);
   font-family: 'Gotham Book', 'Gotham Medium', 'Gotham Bold';
 }
 
-.navbar-brand img {
-  display: inline;
-}
-.navbar-brand {
-  padding-top: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.navbar-brand span {
-  position: relative;
-  top: 5px;
-  left: 3px;
-}
-
-.navbar {
-  border-bottom: 1px solid rgb(213, 222, 224);
-  box-shadow: rgba(116, 147, 178, 0.109804) 0px 2px 6px 0px, rgb(255, 255, 255) 0px -2px 0px 0px inset;
-}
-
 .content {
+  position: relative;
   margin-top: 30px;
 }
 
+.nav--links {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 .hero {
-  height: 375px;
+  position: relative;
   text-align: center;
   margin: auto;
-  margin-top: 100px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   max-width: 600px;
-  color: #617d99;
-  text-shadow: 0px 1px 0px white;
 }
-.hero h2,
-.feature h2 {
-  font-size: 42px;
+
+.hero--name {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-bottom: 60px;
+  color: #337ab7;
+}
+
+.hero--name img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 80px;
+  width: 95px;
+  margin-right: 10px;
+  margin-top: -20px;
+  margin-left: -105px;
+}
+
+.hero h2 {
+  font-size: 38px;
   margin-bottom: 25px;
+  font-weight: 200;
+  line-height: 48px;
+  color: #617d99;
 }
 
 .hero p {
   color: #7493b2;
-  text-shadow: 0px 1px 0px #fbfcfc;
-  font-size: 18.67px;
-  width: 75%;
-  margin: auto;
+  font-size: 19px;
+  line-height: 26px;
+  width: 85%;
+  margin: 0px auto 25px auto;
+  font-weight: 300;
+  padding: 0px;
 }
 
 .hero .cta {
@@ -125,6 +136,27 @@ body {
   padding: 12px;
   padding-top: 14px;
   letter-spacing: .75px;
+}
+
+.value-prop p {
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+.feature {
+  padding: 40px;
+  color: #617d99;
+}
+
+.feature h2 {
+  margin-bottom: 25px;
+}
+
+.feature p {
+  font-weight: 300;
 }
 
 .btn-primary {
@@ -143,10 +175,6 @@ body {
   margin-top: 10px;
   margin-bottom: 15px;
   color: rgba(37,140,209,1);
-}
-
-.well p {
-  text-align: justify;
 }
 
 .dark {
@@ -184,11 +212,6 @@ body {
   background-color: #6cc86c;
 }
 
-.feature {
-  padding: 40px;
-  color: #617d99;
-  text-shadow: 0px 1px 0px white;
-}
 .icon-bank .row .col-xs-4 {
   margin-bottom: 15px;
 }
@@ -211,3 +234,6 @@ blockquote small {
   font-size: 12px;
 }
 
+.value-prop {
+  height: 310px;
+}
