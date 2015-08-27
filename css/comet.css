@@ -237,3 +237,29 @@ blockquote small {
 .value-prop {
   height: 310px;
 }
+
+@media (max-width: 768px) {
+  .btn.cta {
+    width: 80%;
+  }
+  .value-prop {
+    height: auto;
+  }
+  .hero--name {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .hero--name img {
+    height: auto;
+    margin-right: 0px;
+    width: 60px;
+    margin-left: -20px;
+  }
+  .nav--links {
+    right: 20px;
+    top: -10px;
+  }
+}
+
+
+
